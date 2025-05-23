@@ -425,7 +425,8 @@ void DrawGame() {
 		DrawText("Made by Savu Matei & Rusu Teodora", 10, 10, 25, LIGHTGRAY);
 		break;
 	case DIALOGUE:
-		ClearBackground(BEIGE);
+		ClearBackground(BLACK);
+		DrawRectangle(50, 280, 1180, 160, BLACK);
 		DrawText(TextSubtext(dialog, 0, framesCounter / 10), 60, 300, 45, DARKGRAY);
 		DrawText("APASA [ENTER] ca sa CONTINUI!", 10, screenHeight - 40, 20, LIGHTGRAY);
 		break;
@@ -623,7 +624,7 @@ int main(void) {
 	RScene = house;
 	CScene = forest;
 	WScene = window1;
-	LScene = cave;
+	LScene = cave;`
 	InsideCave = Temp1;
 	DeadScene = InsideHouse;
 	DresserScene = Bedroom;

@@ -1,1 +1,2 @@
-﻿  lets try.vcxproj -> C:\Users\EDU\Desktop\matei\joc jmek\x64\Release\lets try.exe
+﻿  main.cpp
+C:\Users\Teodora\Documents\woodchase\Nightfall Groove\fisier_joc\lets try\main.cpp(1,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
